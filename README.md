@@ -1,4 +1,4 @@
-# Credit Card Financial Dashboard
+# Credit Card Sales & Revenue Insights Dashboard
 
 This project is designed to provide real-time insights into credit card performance metrics through an interactive Power BI dashboard. The dashboard helps stakeholders monitor and analyze key metrics related to revenue, transactions, and customer demographics on a weekly basis.
 
