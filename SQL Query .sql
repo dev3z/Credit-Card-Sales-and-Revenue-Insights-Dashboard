@@ -67,9 +67,6 @@ CSV HEADER;
 
 
 
--- If you are getting below error, then use the below point:  
-   -- ERROR:  date/time field value out of range: "0"
-   -- HINT:  Perhaps you need a different "datestyle" setting.
 
 -- Check the Data in Your CSV File: Ensure date column values are formatted correctly and are in a valid format that PostgreSQL can recognize (e.g., YYYY-MM-DD). And correct any incorrect or missing date values in the CSV file. 
    -- or
@@ -95,4 +92,5 @@ COPY cust_detail
 FROM 'D:\cust_add.csv' 
 DELIMITER ',' 
 CSV HEADER;
+
 
