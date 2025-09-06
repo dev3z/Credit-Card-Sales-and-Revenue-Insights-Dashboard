@@ -94,5 +94,12 @@ from 'E:\DEV3Z\DA\final project p5 ,\Credit_Card_Financial_Dashboard\cust_add.cs
 DELIMITER ',' 
 CSV HEADER;
 
+-- To determine your PostgreSQL username, several methods can be employed:
+-- Using the psql command-line interface:
+-- To see the current user.
+-- Connect to your PostgreSQL server using psql and execute the following SQL query:
+Code
+
+    SELECT CURRENT_USER;
 
 
