@@ -52,8 +52,9 @@ CREATE TABLE cust_detail (
 
 -- copy cc_detail table
 
-COPY cc_detail
-FROM 'D:\credit_card.csv' 
+SET datestyle = 'DMY';
+copy cc_detail
+from 'E:\DEV3Z\DA\final project p5 ,\Credit_Card_Financial_Dashboard\credit_card.csv'
 DELIMITER ',' 
 CSV HEADER;
 
@@ -61,7 +62,7 @@ CSV HEADER;
 -- copy cust_detail table
 
 COPY cust_detail
-FROM 'D:\customer.csv' 
+from 'E:\DEV3Z\DA\final project p5 ,\Credit_Card_Financial_Dashboard\customer.csv' 
 DELIMITER ',' 
 CSV HEADER;
 
@@ -81,7 +82,7 @@ SET datestyle TO 'ISO, DMY';
 -- copy additional data (week-53) in cc_detail table
 
 COPY cc_detail
-FROM 'D:\cc_add.csv' 
+from 'E:\DEV3Z\DA\final project p5 ,\Credit_Card_Financial_Dashboard\cc_add.csv' 
 DELIMITER ',' 
 CSV HEADER;
 
@@ -89,8 +90,9 @@ CSV HEADER;
 -- copy additional data (week-53) in cust_detail table (remember to update the file name and file location in below query)
 
 COPY cust_detail
-FROM 'D:\cust_add.csv' 
+from 'E:\DEV3Z\DA\final project p5 ,\Credit_Card_Financial_Dashboard\cust_add.csv' 
 DELIMITER ',' 
 CSV HEADER;
+
 
 
