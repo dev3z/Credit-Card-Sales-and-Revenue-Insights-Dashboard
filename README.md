@@ -43,14 +43,17 @@ The main objective of this project is to develop a comprehensive **Credit Card W
    - Prepare the CSV files containing transaction and customer data.
    - Create the necessary tables in your SQL environment.
    - Import the CSV files into the SQL tables using the provided SQL queries.
-
 2. **Power BI Integration**:
    - Import the processed data into Power BI.
    - Use the provided DAX queries to generate the necessary insights.
-
 3. **DAX Queries**: 
    - Example queries include age and income group segmentation, weekly revenue calculation, and comparison of current and previous weeks' revenues.
-
-![Credit Card Financial Dashboard-Transaction_page-0001](https://github.com/user-attachments/assets/f8d36278-e437-484b-ba21-565a3967ddea)
-
-![Credit Card Financial Dashboard-Customer_page-0001](https://github.com/user-attachments/assets/7ec013d8-43d8-4bde-8e06-d7b35c8e0ee4)
+     
+   <br>
+![Dashboard Overview](./Screenshots/dashboard_overview.png)
+<br>
+<br>
+![Sales Trends](./Screenshots/sales_trends.png)
+<br>
+<br>
+![Revenue Insights](./Screenshots/revenue_insights.png)
